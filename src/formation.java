@@ -3,6 +3,8 @@ public class formation {
 	private int id;
 	private String ecole;
 	private String diplome;
+	private String ville_ecole;
+	private String pays_ecole;
 	private int annee_debut;
 	private int annee_fin;
 	
@@ -23,6 +25,18 @@ public class formation {
 	}
 	public void setDiplome(String diplome) {
 		this.diplome = diplome;
+	}
+	public String getVille() {
+		return ville_ecole;
+	}
+	public void setVille(String ville_ecole) {
+		this.ville_ecole = ville_ecole;
+	}
+	public String getPays() {
+		return pays_ecole;
+	}
+	public void setPays(String pays_ecole) {
+		this.pays_ecole = pays_ecole;
 	}
 	public int getAnnee_debut() {
 		return annee_debut;
@@ -46,10 +60,10 @@ public class formation {
 	}
 	
 	public void update_form(){
-		String update_form = "UPDATE formation SET ";
+		String update_form = "UPDATE formation SET ecole = '', diplome = '', ville_ecole = '', pays_ecole = '', annee_debut = '', annee_fin = '' ";
 	}
 	
 	public void ajout_form(){
-		String ajout_form = "INSERT INTO formation VALUES (0,'', '', '', '')";
+		String ajout_form = "INSERT INTO formation VALUES (0,'', '', '', '', '', '')";
 	}
 }
