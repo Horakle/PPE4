@@ -2,3 +2,6 @@
 /formation.class
 /interet.class
 /type_interet.class
+/domaine_etude.class
+/experience.class
+/utilisateur.class
