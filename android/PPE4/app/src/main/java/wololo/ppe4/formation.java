@@ -1,3 +1,4 @@
+package wololo.ppe4;
 
 public class formation {
 	private int id;
@@ -48,7 +49,7 @@ public class formation {
 		this.pays_ecole = pays_ecole;
 	}
 	
-	//Getter & Setter Année début
+	//Getter & Setter Annï¿½e dï¿½but
 	public int getAnnee_debut() {
 		return annee_debut;
 	}
@@ -56,7 +57,7 @@ public class formation {
 		this.annee_debut = annee_debut;
 	}
 	
-	//Getter & Setter Année fin
+	//Getter & Setter Annï¿½e fin
 	public int getAnnee_fin() {
 		return annee_fin;
 	}

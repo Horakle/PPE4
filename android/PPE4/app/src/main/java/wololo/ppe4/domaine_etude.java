@@ -1,3 +1,4 @@
+package wololo.ppe4;
 
 public class domaine_etude {
 	private int id_dom;
@@ -11,7 +12,7 @@ public class domaine_etude {
 		this.id_dom = id_dom;
 	}
 	
-	//Getter & Setter Libellé
+	//Getter & Setter Libellï¿½
 	public String getLib_dom() {
 		return lib_dom;
 	}

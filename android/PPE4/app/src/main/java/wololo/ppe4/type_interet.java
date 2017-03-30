@@ -1,3 +1,4 @@
+package wololo.ppe4;
 
 public class type_interet {
 	private int id_type_int;
@@ -11,7 +12,7 @@ public class type_interet {
 		this.id_type_int = id_type_int;
 	}
 	
-	//Getter & Setter Libellé
+	//Getter & Setter Libellï¿½
 	public String getLib_type_int() {
 		return lib_type_int;
 	}

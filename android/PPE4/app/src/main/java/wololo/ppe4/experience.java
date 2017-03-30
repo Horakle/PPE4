@@ -1,3 +1,5 @@
+package wololo.ppe4;
+
 import java.sql.Date;
 
 public class experience {
@@ -41,7 +43,7 @@ public class experience {
 		this.pays_exp = pays_exp;
 	}
 	
-	//Getter & Setter Date début
+	//Getter & Setter Date dï¿½but
 	public Date getDate_debut() {
 		return date_debut;
 	}

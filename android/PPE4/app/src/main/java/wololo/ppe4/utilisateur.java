@@ -1,3 +1,5 @@
+package wololo.ppe4;
+
 import java.sql.Date;
 
 public class utilisateur {
@@ -32,7 +34,7 @@ public class utilisateur {
 		this.nom_util = nom_util;
 	}
 	
-	//Getter & Setter Prénom
+	//Getter & Setter Prï¿½nom
 	public String getPrenom_util() {
 		return prenom_util;
 	}
