@@ -10,6 +10,7 @@ public class utilisateur {
 	private String secteur_util;
 	private String mail;
 	private String photo;
+	private String mdp_util;
 	private String pays;
 	private String ville;
 	private String cp;
@@ -85,6 +86,14 @@ public class utilisateur {
 	}
 	public void setPhoto(String photo) {
 		this.photo = photo;
+	}
+	
+	//Getter & Setter MDP
+	public String getMdp_util() {
+		return mdp_util;
+	}
+	public void setMdp_util(String mdp_util) {
+		this.mdp_util = mdp_util;
 	}
 	
 	//Getter & Setter Pays
