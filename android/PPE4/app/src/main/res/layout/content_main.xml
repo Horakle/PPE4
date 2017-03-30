@@ -5,78 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="wololo.ppe4.MainActivity"
+    tools:context="wololo.ppe4.MainActivity">
     tools:showIn="@layout/activity_main">
 
+
     <LinearLayout
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="374dp"
+        android:layout_height="406dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        android:paddingBottom="25dp"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        android:paddingTop="25dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        android:id="@+id/linearLayout">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:elegantTextHeight="false"
-            android:fontFamily="sans-serif"
-            android:freezesText="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="125dp"
             android:singleLine="true"
             android:text="Tinder Bahuet"
-            android:textAlignment="center"
-            android:textColor="@android:color/holo_red_dark"
-            android:textSize="36sp" />
+            android:textColor="#CD1515"
+            android:textSize="40sp" />
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="50dp"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:singleLine="true"
-            android:text="Email"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:text="Email" />
 
         <EditText
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="50dp"
             android:ems="10"
             android:inputType="textPassword"
-            android:selectAllOnFocus="false"
-            android:singleLine="true"
-            android:text="mdp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:text="Password" />
 
         <Button
             android:id="@+id/button"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="10dp"
-            android:background="@android:color/holo_blue_light"
-            android:elevation="0dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/white"
             android:text="Connexion"
-            android:textAlignment="center"
-            android:textAllCaps="false" />
+            android:textColor="#CD1515"
+            android:textSize="17sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingTop="0dp"
+            android:text="Inscription"
+            android:textColor="#48CD17"
+            android:textSize="13sp" />
 
     </LinearLayout>
 
